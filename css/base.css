@@ -1,0 +1,27 @@
+:root{
+    --cor-cabecalho: #7c7caa;
+    --cor-corpo-um: #9594bf;
+    --cor-corpo-dois: #adadd5;
+    --cor-titulo: #c6c5ea;
+    --cor-texto: #deddff;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+p {
+    color: var(--cor-texto);
+}
+
+h1, h2, h3, h4 {
+    color: var(--cor-titulo);
+}
+

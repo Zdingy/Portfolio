@@ -1,0 +1,201 @@
+.container {
+    height: 5%;
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-img {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+
+}
+
+.cabecalho-link {
+    display: inline-block;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-right: 4rem;
+}
+
+.cabecalho-link a {
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+/* TELA HOME */
+
+.tela {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-corpo-um);
+    height: 1000px;
+    width: 100%;
+}
+
+
+.tela-home {
+    margin-left: 10%;
+}
+
+.tela-texto-home-um{
+    font-size: 50px;
+}
+
+.tela-texto-home-dois{
+    width: 100%;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: digitar 3s steps(40), blink 0.5s step-end infinite alternate ;
+}
+
+.tela-home-descricao {
+    font-size: 30px;
+}
+@keyframes digitar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+/* TELA SOBRE */
+
+.tela-sobre {
+    background-color: var(--cor-corpo-dois);
+    height: 1000px;
+    width: 100%;
+}
+
+.tela-sobre-divisao {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-titulo {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 15rem;
+}
+
+.sobre-texto {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.tela-sobre-descricao {
+    font-size:40px ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tela-sobre-icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* TELA PROJETOS */
+
+.tela-projetos-principal{
+    background-color: var(--cor-corpo-um);
+}
+.tela-projetos {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.tela-projetos-card-um {
+    background-color: #000000;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.tela-divisao-titulo{
+    height: 200px
+}
+
+.tela-projetos-titulo {
+    color: var(--cor-titulo);
+    font-size: 50px;
+    margin-left: 7%;
+    padding-top: 15rem;
+}
+
+
+.tela-sobre-link {
+    border: 1px solid var(--cor-cabecalho);
+    color: var(--cor-cabecalho);
+    text-decoration: none;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* BOTAO VOLTAR AO TOPO*/
+#btnVoltarTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    color: #deddff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: opacity 0.3s;
+  }
+  
+  #btnVoltarTopo:hover {
+    opacity: 0.8;
+  }
+  
+
+
+
+
