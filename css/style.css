@@ -6,6 +6,10 @@
     justify-content: space-between;
 }
 
+.teste-container{
+    display: flex;
+}
+
 .cabecalho-img {
     width: 20%;
     margin-left: 5%;
